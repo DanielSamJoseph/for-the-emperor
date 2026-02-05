@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGES</title>
+</head>
+<style>
+    body {
+        background-image: url(robot.gif);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        color: aliceblue;
+    }
+
+    h2 {
+        color: aliceblue;
+    }
+</style>
+
+<body>
+    <audio id="bg-audio" autoplay loop controls muted>
+        <source src="fortheemperor.mp3">
+    </audio>
+    <h1>FOR THE EMPEROR AND WE NEED YOU </h1>
+    <h2>JOIN THE FIGHT</h2>
+    <img src="marine.png" alt="This is a picture of a robto trying and testing its arm">
+
+</body>
+<script>
+    const audio = document.getElementById("bg-audio");
+
+    audio.muted = false;
+    audio.volume = 0.05;
+
+</script>
+
+</html>
